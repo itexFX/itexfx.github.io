@@ -3,6 +3,15 @@
 
 //Custom edits for itexfx
 
+.li-inline{
+    display:inline-block!important;
+    vertical-align: top;
+}
+
+.login-hack {
+  color: rgba(255,255,255,.7);
+}
+
 .clickable {
      cursor:pointer;
   }
@@ -87,12 +96,24 @@ a.blue {
   margin-top: 40px;
 }
 
+.super-top-pad {
+  margin-top: 120px;
+}
+
 .bottom-pad {
   margin-bottom: 30px;
 }
 
 .thin {
   font-weight:100;
+}
+
+@media screen and (min-width: 768px) {
+  .youtube-mobile {
+    width: 425px;
+    height:250px;
+    /* either % (e.g. 60%) or px (400px) */
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -104,7 +125,7 @@ a.blue {
 
 @media screen and (max-width: 768px) {
   .menu-tuckin {
-    float: left;
+    float:left;
     margin-left:10px;
   }
 }
@@ -270,7 +291,7 @@ aside {
       > a,
       > a:focus {
         font-weight: 700;
-        font-size: 13px;
+        font-size: 14px;
         color: @gray-darker;
         &:hover {
           color: @theme-primary;
