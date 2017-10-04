@@ -113,7 +113,12 @@ a.blue {
 @media screen and (max-width: 768px) {
   .menu-tuckin {
     float: left;
-    margin-left: 10px;
+    margin: 0px 20px -5px 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hide-mobile {
+    display: none!important;
   }
 }
 @media screen and (min-width: 768px) {
